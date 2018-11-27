@@ -1,0 +1,34 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'toast' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for Toast
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+
+  # target 'ToastTests' do
+  #   inherit! :search_paths
+  #   # Pods for testing
+  #   pod 'Firebase/Core'
+  # end
+
+end
+
+# target 'Toast-tvOS' do
+#   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+#   # use_frameworks!
+#
+#   # Pods for Toast-tvOS
+#   pod 'Firebase/Core'
+#
+#   target 'Toast-tvOSTests' do
+#     inherit! :search_paths
+#     # Pods for testing
+#     pod 'Firebase/Core'
+#   end
+#
+# end
